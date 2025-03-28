@@ -1,0 +1,13 @@
+{
+  "@class" : "org.apereo.cas.services.OidcRegisteredService",
+  "clientId": "client",
+  "clientSecret": "secret",
+  "serviceId" : "^https://.*",
+  "name": "OIDC",
+  "id": 1000,
+  "bypassApprovalPrompt": true,
+  "generateRefreshToken": true,
+  "supportedResponseTypes": [ "code" ],
+  "supportedGrantTypes": [ "authorization_code" ],
+  "scopes" : [ "profile", "openid", "email" ]
+}

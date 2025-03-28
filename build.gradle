@@ -298,7 +298,8 @@ dependencies {
      **/
     implementation "org.apereo.cas:cas-server-support-rest"
 
-
+    // CM 2025-03-27, requires /etc/cas/config directory to exist
+    implementation "org.apereo.cas:cas-server-support-oidc"
     
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
